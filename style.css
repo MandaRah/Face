@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background: #1a49cc;
+    width: 100vw;
+    padding: 0 15px 0 12px;
+
+}
+
+.title {
+    font-family: sans-serif;
+    color: white;
+    width: 40vw;
+    text-transform: uppercase;
+
+}
+
+
+.form1 {
+    width: 20vw;
+}
+
+.form2 {
+    width: 20vw;
+
+}
+
+.lab {
+    color: white;
+    font-family: sans-serif;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.bout {
+    padding: 5px;
+    background: #00000000;
+    color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+#email {
+    width: 15vw;
+}
+
+.main_table{
+    width: 100vw;
+}
+
+.descri {
+    width: 50vw;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 1.0vw;
+}
+
+.descri p {
+    color: #004ef5;
+    font-weight: 200;
+}
+
+
+.création{
+    width: 48vw;
+}
+.compte {
+    font-family: sans-serif;
+    color: #004ef5;
+    font-size: xx-large;
+}
+
+.création p {
+    margin-top: -3px;
+    color: #004ef5;
+}
+
