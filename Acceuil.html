@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- <table class="header-table">
+        <tr>
+            <td class="title-section" colspan="2">
+                <h1>FACEBOOK</h1>
+            </td>
+            <td class="login-section">
+                <form action="#" method="post">
+                    <label for="email">Adresse e-mail ou numéro de téléphone</label>
+                    <input type="email" id="email" name="email" placeholder="Votre adresse e-mail"><br>
+                    <label for="password">Mot de passe</label>
+                    <input type="password" id="password" name="password" placeholder="Votre mot de passe"><br>
+                    <button type="submit">Connexion</button><br>
+                    <a href="#">Mot de passe oublié</a>
+                </form>
+            </td>
+        </tr>
+    </table> -->
+    <table class="header">
+        <tr>
+            <td class="title" colspan="2">
+                <h1>Facebook</h1>
+            </td>
+            <!-- <td></td> -->
+            <td class="form1">
+                <label for="email" class="lab">Adresse email ou num telephone</label>
+                <br>
+                <input type="email" id="email" placeholder="Votre adresse email">
+                <br>
+                <input type="checkbox" name="" id="Check1">
+                <a href="#">Mot de passe ounlié</a>
+            </td>
+            <td class="form2">
+                <label for="num" class="lab">Mot de passe</label>
+                <br>
+                <input type="email" id="num" placeholder="Votre mot de passe">
+                <br>
+                <input type="checkbox" name="" id="Check2">
+                <a href="#">Gareder ma session ouverte</a>
+            </td>
+            <td>
+                <button type="submit" class="bout">Connecter vous</button>
+            </td>
+        </tr>
+    </table>
+    <table class="main_table">
+        <tr>
+            <td class="descri" colspan="2">
+                <p class="para0">Facebook vous permet de rester en contact avec les personnes qui comptent dans votre vie</p>
+            </td>
+
+            <td class="création">
+                <h2 class="compte">
+                    Créer votre compte
+                </h2>
+                <p class="para">C'est gratuit(et cela restera toujours) </p>
+
+            </td>
+        </tr>
+
+        <tr>
+            <td id="image" style="width: 50vw ;  height: 1vh; " colspan="2" rowspan="11"></td>
+            <!-- <td></td> -->
+            <td class="input1" style="width: 20%;">
+                <input type="text" placeholder="nom" id="check3">
+            </td>
+            <td class="input2" style="width: 30%;">
+                <input type="text" placeholder="nom-de-famille" id="check4">
+            </td>
+        </tr>
+        <tr>
+            <!-- <td></td> -->
+
+            <td colspan="2">
+                <input type="text" placeholder="Votre adresse éléctronique" id="check5">
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <!-- <td></td> -->
+
+            <td colspan="2">
+                <input type="text" placeholder="Confirmer votre adresse éléctronique" id="check6">
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <!-- <td></td> -->
+
+            <td colspan="2">
+                <input type="text" placeholder="Nouveau mot de passe" id="check7">
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+             <!-- <td></td> -->
+
+             <td colspan="2">
+                <h2 class="sous_title">Date de naissance</h2>
+            </td>
+            <td></td>
+        </tr>
+
+        <tr>
+            <td class="col_day">
+                <input type="number" id="day" value="01" min="1" max="31"> 
+            </td>
+            <td class="col_month">
+                <select name="" id="month">
+                    <option value="Janvier">Janvier</option>
+                    <option value="Février">Février</option>
+                    <option value="Mars">Mars</option>
+                    <option value="Avril">Avril</option>
+                    <option value="Mai">Mai</option>
+                    <option value="Juin">Juin</option>
+                    <option value="Juillet">Juillet</option>
+                    <option value="Août">Août</option>
+                    <option value="Septembre">Septembre</option>
+                    <option value="Octobre">Octobre</option>
+                    <option value="Novembre">Novembre</option>
+                    <option value="Décembre">Décembre</option>
+                </select>
+                <select name="" id="year">
+                    <option value="2003">2003</option>
+                    <option value="2010">2010</option>
+                    <option value="2011">2011</option>
+                    <option value="2012">2012</option>
+                    <option value="2013">2013</option>
+                    <option value="2014">2014</option>
+                    <option value="2015">2015</option>
+                    <option value="2016">2016</option>
+                    <option value="2017">2017</option>
+                    <option value="2018">2018</option>
+                    <option value="2019">2019</option>
+                    <option value="2020">2020</option>
+                    <option value="2021">2021</option>
+                    <option value="2022">2022</option>
+                    <option value="2023">2023</option>
+                    <option value="2024">2024</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <input type="radio" name="gender" id="check_mal"  value="Homme">
+                <label for="check_mal" class="lab_mal">Homme</label>
+            </td>
+            <td>
+                <input type="radio" name="gender" id="check_feminin" value="femme">
+                <label for="check_feminin" class="lab_femme">Femme</label>
+            </td>
+        </tr>
+        <tr>
+            <td class="col_para" colspan="2">
+                <p class="para">En cliquant sur créer un compte vous acceptez nos conditions et indiquez que vous avez lu notre politique d'utilisation des données y compris notre utilistion des cookies</p>
+            </td>
+
+        </tr>
+
+        <tr>
+            <td class="boutton_col">
+                <button type="submit">Créer un compte</button>
+
+            </td>
+        </tr>
+        <tr>
+            <td class="separator" colspan="2"></td>
+        </tr>
+        <tr>
+            <td colspan="2" class="lien_col">
+                <a href="#">Créer une page pour une célébrité , un groupe ou une entreprise</a>
+            </td>
+        </tr>
+
+        
+    </table>
+
+
+</body>
+
+</html>
